@@ -1,0 +1,128 @@
+body{
+    margin:0;
+}
+.headline{
+    height: 7px;
+    background-color:  rgba(192,156,221,1);
+}
+.main{
+    display:flex;
+}
+.aco{
+    float:right;
+    margin-top: 20px;
+    margin-right: 60px;
+    height: 300px;
+}
+.catt{
+    display:flex;
+    /* flex-direction: row-reverse; */
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+    height: 300px;
+
+}
+.catt button{
+    margin-top: 10px;
+    margin-left: 35px;
+    width:120px;
+    height: 30px;
+    background-color: rgb(73, 185, 117);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+.catt p{
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.catt div{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.log {
+    background-image:url('slider-2.jpg');
+    height:400px;
+    margin-top: 20px;
+    /* justify-content: left; */
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+.fo{
+    height:65px;
+}
+.loglog{
+    display: block;
+    position: relative;
+    top: 5px;
+    right:550px;
+    border-radius: 5px;
+    padding: 30px;
+    /* padding-right: 30px;
+    padding-bottom: 30px; */
+    float: left;
+    /* right: 300px; */
+    /* /* width: 500px; */
+     /* height: 300px; */
+    background-color: aliceblue;
+    /* margin-left: 20px;
+    margin-right: 200px; */
+}
+.loglog button{
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+
+    }
+    .loglog h2,p{
+        text-align: center;
+    }
+    input[type="number"]{
+        width: 300px;
+    height: 30px;
+
+    }
+    input[type="text"]{
+        width: 300px;
+    height: 30px;
+
+    }
+    .catag{
+        display: flex;
+        overflow: hidden;
+        overflow-x: scroll;
+        padding: 30px;
+    }
+    .item{
+        /* display: inline-block; */
+        justify-content: space-between;
+        padding: 10px;
+        /* overflow: hidden;
+        overflow-x: scroll;     */}
+
+    .catag  img{
+        width: 90px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        /* margin-left: 20px; */
+
+    }
+    h1{
+        white-space: nowrap;
+        margin: 0px;
+        padding: 30px;    }
+    .adv{
+        display: flex;
+    }
+    
